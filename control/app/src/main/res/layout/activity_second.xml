@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/mainLayout"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context="com.archy.control.SecondActivity">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="3"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="50dp"
+                android:onClick="upButtonClick"
+                android:text="UP"
+                android:textSize="8sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-5dp"
+            android:layout_weight="3"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="50dp"
+                android:onClick="leftButtonClick"
+                android:text="LEFT"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="50dp"
+                android:onClick="downButtonClick"
+                android:text="DOWN"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="50dp"
+                android:onClick="rightButtonClick"
+                android:text="RIGHT"
+                android:textSize="8sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="100dp"
+                android:onClick="enterButtonClick"
+                android:text="Enter"
+                android:textSize="8sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="80dp"
+                android:onClick="mediaJumpBackButtonClick"
+                android:text="Media Back"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="80dp"
+                android:onClick="mediaPauseButtonClick"
+                android:text="MEDIA PAUSE"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="80dp"
+                android:onClick="mediaJumpForButtonClick"
+                android:text="Media Next"
+                android:textSize="8sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/et_bat_number"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="batExecuteButtonClick"
+                android:text="bat execute"
+                android:textSize="8sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/logout_button2"
+                android:layout_width="150dp"
+                android:onClick="logoutButtonClick"
+                android:text="Logout"
+                android:textSize="8sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="150dp"
+                android:onClick="turnOffButtonClick"
+                android:text="TURN OFF PC"
+                android:textSize="8sp" />
+        </TableRow>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "197939404195",
+    "firebase_url": "https://remote-15dab.firebaseio.com",
+    "project_id": "remote-15dab",
+    "storage_bucket": "remote-15dab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197939404195:android:b9ba2f924bbdd0eb",
+        "android_client_info": {
+          "package_name": "com.archy.control"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197939404195-ia0d4jbgp8j1shn5kjep2152ma6fdkh8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.archy.control",
+            "certificate_hash": "5bd35240e39eaa1f6131d2555d1a2901b56a4d8b"
+          }
+        },
+        {
+          "client_id": "197939404195-driqtcmnajagdjq6m5vv1tkc60l5qof3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7ogzRWtld5AcdJpu1hkN8JhXEOkSPH6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197939404195-driqtcmnajagdjq6m5vv1tkc60l5qof3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

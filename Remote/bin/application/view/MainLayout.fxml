@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="200.0" minWidth="409.0" prefHeight="470.0" prefWidth="409.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="code" layoutX="40.0" layoutY="50.0" prefHeight="36.0" prefWidth="330.0" />
+      <Button layoutX="129.0" layoutY="93.0" mnemonicParsing="false" onAction="#handleClick" prefHeight="36.0" prefWidth="153.0" text="CONNECT" />
+      <Label fx:id="display" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="14.0" prefHeight="36.0" prefWidth="383.0" text="Please enter your username." textAlignment="CENTER" textFill="#5462d0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="40.0" layoutY="420.0" mnemonicParsing="false" onAction="#addBatFile" prefHeight="36.0" prefWidth="153.0" text="Add .bat file" />
+      <Button layoutX="217.0" layoutY="420.0" mnemonicParsing="false" onAction="#removeBatFile" prefHeight="36.0" prefWidth="153.0" text="Delete" />
+      <TableView fx:id="tableView" layoutX="40.0" layoutY="148.0" prefHeight="267.0" prefWidth="330.0">
+        <columns>
+          <TableColumn fx:id="fileId" prefWidth="71.0" resizable="false" sortable="false" text="C1" />
+          <TableColumn fx:id="fileName" prefWidth="258.0" resizable="false" sortable="false" text="C2" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
